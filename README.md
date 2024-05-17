@@ -14,7 +14,7 @@ The purpose of this repository is to design and create a database to hold inform
 The Equipment Database was designed as a relational database. It includes 12 tables which are described in more depth in **data dictionaries section**. 
 
 ### ERD Diagram
-![Equipment_ERD.png]
+![](Equipment_ERD.png)
 
 ### Data Dictionaries 
 **Table Name: Brand**
