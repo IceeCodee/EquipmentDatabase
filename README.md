@@ -7,6 +7,12 @@ The purpose of this repository is to design and create a database to hold inform
 * Python, Tkinter used to create a GUI inorder to streamline the data entry process
 
 ## Files
+* EquipmentDBCreation.sql --> script to create the equipment database
+* EquipmentProject.xlsx --> file that contains the information to be loaded into the database
+* Equipment_ERD.png --> picture of my ERD diagram
+* GUI.png --> picture of the GUI
+* GUI.py --> python script for GUI
+* Scripts_for_GUI.sql --> database script for GUI
 
 
 ## Methodology
