@@ -94,12 +94,18 @@ The Equipment Database was designed as a relational database. It includes 12 tab
 **Table Name: BrandMaterial**
 |Field Name | Data Type | Constraint | Description | Example|
 |-----------|-----------|------------|-------------|--------|
+| BrandID | INT | Foreign Key | References key in *Brand* table | 1 |
+| MaterialID | INT | Foreign Key | References key in *JawPadMaterial* table | 5 |
 
 **Table Name: BrandSize**
 |Field Name | Data Type | Constraint | Description | Example|
 |-----------|-----------|------------|-------------|--------|
+| BrandID | INT | Foreign Key | References key in *Brand* table | 1 |
+| SizeID | INT | Foreign Key | Reference to key in *Size* table | 3 |
 
 **Table Name: PadMaterialSize**
 |Field Name | Data Type | Constraint | Description | Example|
 |-----------|-----------|------------|-------------|--------|
+| MaterialID | INT | Foreign Key | References key in *JawPadMaterial* table | 5 |
+| JawSizeID | INT | Foreign Key | Reference to key in *JawPadSize* table | 6 |
 
